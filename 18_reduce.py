@@ -9,6 +9,6 @@ def accum(counter, item):
 
 result = functools.reduce(accum, numbers)
 
-# result = functools.reduce(lambda counter, item: counter + item , numbers)
+result = functools.reduce(lambda counter, item: counter + item , numbers)
 
 print(result)
